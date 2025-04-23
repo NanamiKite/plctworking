@@ -38,15 +38,15 @@
    mkdir coremark
    cd coremark
    ruyi extract coremark
-   sed -i 's/gcc/riscv64-unknown-linux-gnu-gcc/g' linux64/core_portme.mak
+   sed -i 's/gcc/riscv64-unknown-linux-gnu-gcc/g' linux64/core_portme.mak
    make PORT_DIR=linux64 link
    ```
 
 8. **通过QEMU运行coremark.exe**：
    ```bash
    ruyi-qemu coremark.exe
-   ![](/images/task1-1.png)
    ```
+    ![""](./images/task1-1.png)
 
 ## Task 1.2 Installing Toolchain and Building Project
 
@@ -69,13 +69,11 @@
 4. **按照要求设置项目并导入源码**。
 
 5. **编辑Makefile**：
-   ![](task1-2-1.png)
+   ![""](./images/task1-2-1.png)
    > 注：`toolChain`需要修改为上述下载的工具链地址。
 
 6. **由于不需要传输到目标设备，官方文档的upload选项被去除，示例项目编译完成**。
-   ```
-   ![](task1-2-1.png)
-   ```
+   ![""](./images/task1-2-1.png)
 
 ## TASK1 意见和改进建议
 
