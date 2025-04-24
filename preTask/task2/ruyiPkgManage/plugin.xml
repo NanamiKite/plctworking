@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <extension point="org.eclipse.ui.views">
+        <view
+            name="Package Resource Manager"
+            category="com.ruyi.pkgmanage"
+            class="ruyipkgmanage.PackageResourceView"
+            id="com.ruyi.pkgmanage.PackageResourceView"
+            restorable="true"/>
+    </extension>
+
+    <extension point="org.eclipse.ui.preferencePages">
+        <page
+            name="Ruyi Package Manager"
+            class="ruyipkgmanage.RuyiPreferencesPage"
+            id="ruyipkgmanage.RuyiPreferencesPage"/>
+    </extension>
+</plugin>

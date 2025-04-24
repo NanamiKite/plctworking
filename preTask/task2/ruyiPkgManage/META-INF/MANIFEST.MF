@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ruyi Package Manager Plugin
+Bundle-SymbolicName: ruyiPkgManage;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: ruyipkgmanage.Activator
+Bundle-Description: A plugin for managing Ruyi packages in Eclipse IDE.
+Bundle-Category: Ruyi Package Management
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package:
+    org.eclipse.core.runtime,
+    org.eclipse.ui,
+    org.eclipse.jface,
+    org.eclipse.swt,
+    org.eclipse.jface.viewers,
+    org.eclipse.ui.views,
+    org.eclipse.ui.preferences,
+    org.eclipse.core.resources,
+    org.eclipse.ui.dialogs,
+    javax.json,
+    org.eclipse.ui.console
+Export-Package:
+    com.ruyi.pkgmanage,
+    com.ruyi.pkgmanage.ui,
+    ruyipkgmanage
+Require-Bundle:
+    org.eclipse.ui,
+    org.eclipse.core.runtime,
+    org.eclipse.jface,
+    org.eclipse.swt
+Eclipse-LazyStart: false
+
