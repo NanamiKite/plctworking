@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+    <extension
+        point="org.eclipse.ui.views">
+        <view
+            id="org.ruyisdk.packages.view"
+            name="Ruyi Package Explorer"
+            class="org.ruyisdk.packages.PackageExplorerView"
+            category="org.ruyisdk.packages">
+        </view>
+    </extension>
+</plugin>

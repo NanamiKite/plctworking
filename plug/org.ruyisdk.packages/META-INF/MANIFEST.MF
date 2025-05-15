@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ruyi SDK Packages
+Bundle-SymbolicName: org.ruyisdk.packages;singleton:=true
+Bundle-Version: 1.0.0
+Require-Bundle: 
+ org.eclipse.ui,
+ org.eclipse.ui.workbench, 
+ org.eclipse.jface, 
+ org.eclipse.swt,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.console
+Bundle-ClassPath: ., lib/javax.json-1.1.4.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+
