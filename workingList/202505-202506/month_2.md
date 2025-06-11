@@ -6,3 +6,7 @@ PR:
 
 - <https://github.com/ruyisdk/ruyisdk-eclipse-plugins/pull/18>
   - 重新定义welcome页面
+- <https://github.com/ruyisdk/ruyisdk-eclipse-plugins/pull/24>
+  - fix: 修复三方库打包问题
+- <https://github.com/ruyisdk/ruyisdk-eclipse-plugins/pull/25>
+  - feat 现在可以自动从服务器获取开发板列表了
