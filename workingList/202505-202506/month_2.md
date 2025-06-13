@@ -10,3 +10,5 @@ PR:
   - fix: 修复三方库打包问题
 - <https://github.com/ruyisdk/ruyisdk-eclipse-plugins/pull/25>
   - feat 现在可以自动从服务器获取开发板列表了
+- <https://github.com/ruyisdk/ruyisdk-eclipse-plugins/pull/31>
+  - fix: 修复打包不显示资源问题
