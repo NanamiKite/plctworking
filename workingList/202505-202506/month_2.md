@@ -14,5 +14,5 @@ PR:
   - fix: 修复打包不显示资源问题
 - <https://github.com/ruyisdk/ruyisdk-eclipse-plugins/pull/33>
   - fix: 1.Change the new method execution to an absolute path to ensure that the ruyi command can be correctly identified in different system environments
-          2.Optimize the code structure and remove unnecessary debugging output
-          3.Modify toLowerCase
+  -      2.Optimize the code structure and remove unnecessary debugging output
+  -      3.Modify toLowerCase
