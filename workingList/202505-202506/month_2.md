@@ -18,3 +18,5 @@ PR:
   - 3.Modify toLowerCase
 - <https://github.com/ruyisdk/ruyisdk-eclipse-plugins/pull/35>
   - fix potential security and locale-sensitive string handling issues 
+- <https://github.com/ruyisdk/ruyisdk-eclipse-plugins/pull/40>
+  - fix ui problem and add serach borad wiht no rse processing logic,add ruyisdk submenu in view list
